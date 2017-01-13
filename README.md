@@ -2,7 +2,7 @@
 
 This repository contains two things:
 
-- A `Dockerfile`
+- A `Dockerfile`.
 - A Flask `webapp`, which utilizes basic functionality of `scikit-learn`.
 
 ## Advantages over Conda Buildpack
