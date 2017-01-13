@@ -10,7 +10,7 @@ This repository contains two things:
 - No slug size limit (Anaconda packages can be very large). 
 - Exact Miniconda environment, from Continuum.
 
-## ☤ Deploy this Application
+## ☤ Deploy this Application:
 
 Deploy with the [Container Registry and Runtime](https://devcenter.heroku.com/articles/container-registry-and-runtime):
 
