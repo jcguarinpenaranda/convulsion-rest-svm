@@ -2,8 +2,8 @@
 
 This repository contains two things:
 
-- A `Dockerfile`, which installs `scikit-learn` with [miniconda](http://conda.pydata.org/miniconda.html).
-- A Flask `webapp`, which utilizes basic functionality of `scikit-learn`.
+- A `Dockerfile`, which installs [scikit-learn](http://scikit-learn.org/stable/) with [miniconda](http://conda.pydata.org/miniconda.html), and a few [pip](https://pip.pypa.io/en/stable/) dependencies.
+- A [Flask](http://flask.pocoo.org) `webapp`, which utilizes basic functionality of `scikit-learn`.
 
 ## ☤ Advantages over [Conda Buildpack](https://github.com/kennethreitz/conda-buildpack):
 
