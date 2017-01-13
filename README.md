@@ -1,4 +1,4 @@
-# Miniconda Example Application
+# Miniconda on Heroku Example App
 
 This repository contains two things:
 
