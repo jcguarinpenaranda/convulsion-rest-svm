@@ -2,13 +2,13 @@
 
 This repository contains two things:
 
-- A `Dockerfile`.
+- A `Dockerfile`, which installs `scikit-learn` with [miniconda](http://conda.pydata.org/miniconda.html).
 - A Flask `webapp`, which utilizes basic functionality of `scikit-learn`.
 
 ## ☤ Advantages over [Conda Buildpack](https://github.com/kennethreitz/conda-buildpack):
 
 - No slug size limit (Anaconda packages can be very large). 
-- Exact Miniconda environment, from Continuum.
+- Exact Miniconda environment, from Continuum Analytics.
 
 ## ☤ Deploy this Application:
 
