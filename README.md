@@ -12,6 +12,8 @@ This repository contains two things:
 
 ## Deploy this Application
 
+Deploy with the [Container Registry and Runtime](https://devcenter.heroku.com/articles/container-registry-and-runtime).
+
      $ heroku plugins:install heroku-container-registry
      $ heroku container:login
      
