@@ -12,4 +12,4 @@ WORKDIR /opt/webapp
 
 RUN conda install scikit-learn
 
-CMD gunicorn --bind 0.0.0.0:$PORT wsgi
+CMD gunicorn --bind 0.0.0.0:$PORT wsgi --reload
