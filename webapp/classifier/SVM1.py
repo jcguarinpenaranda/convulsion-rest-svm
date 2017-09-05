@@ -1,4 +1,5 @@
 from sklearn import svm
+import numpy as np
 import os
 import csv
 
@@ -30,11 +31,10 @@ class SVM():
 
       index=index+1
 
-        
-
     # train the classifier
     self.classifier = svm.SVC()    
     self.classifier.fit(self.X, self.y)
 
   def predict(self, target):
+    target = np.array(target).reshape(1,-1)
     return self.classifier.predict(target)
